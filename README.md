@@ -96,6 +96,4 @@ $ rabbitmqadmin get queue='hello'
 
 *Готовый плейбук разместите в своём репозитории.*
 
-![Задание4](https://github.com/ddponomarev/10-3/blob/master/img/z4.png)
-
 ---
