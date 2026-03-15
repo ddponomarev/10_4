@@ -7,7 +7,7 @@
 
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
 
-![Задание1](https://github.com/ddponomarev/10-3/blob/master/img/z1.png)
+![Задание1](https://github.com/ddponomarev/10_4/blob/master/img/z1.png)
 
 ---
 
@@ -83,5 +83,3 @@ $ rabbitmqadmin get queue='hello'
 ![Задание4](https://github.com/ddponomarev/10-3/blob/master/img/z4.png)
 
 ---
-
-
