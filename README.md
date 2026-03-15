@@ -32,8 +32,13 @@ $ pip install pika
 
 
 
-![Задание2](https://github.com/ddponomarev/10-3/blob/master/img/z2.png)
+![Задание2.1](https://github.com/ddponomarev/10_4/blob/master/img/z2_1.png)
 
+![Задание2.2](https://github.com/ddponomarev/10_4/blob/master/img/z2_2.png)
+
+![Задание2.3](https://github.com/ddponomarev/10_4/blob/master/img/z2_3.png)
+
+![Задание2.4](https://github.com/ddponomarev/10_4/blob/master/img/z2_4.png)
 ---
 
 ### Задание 3  Подготовка HA кластера
