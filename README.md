@@ -58,25 +58,36 @@ $ cat /etc/hosts
 
 *В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.*
 
+![Задание3.1](https://github.com/ddponomarev/10_4/blob/master/img/z3_1.png)
+
+```политики
+В версии RabbitMQ 4.x классическое зеркалирование очередей (HA-policies с ключами ha-*) удалено. Поэтому политика с ha-mode: all; ha-sync-mode: automatic  эти ключи больше не поддерживаются. Вместо этого используются quorum-очереди (или streams).
+```
 Также приложите вывод команды с двух нод:
 
 ```shell script
 $ rabbitmqctl cluster_status
 ```
+![Задание3.2](https://github.com/ddponomarev/10_4/blob/master/img/z3_2.png)
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
 ```shell script
 $ rabbitmqadmin get queue='hello'
 ```
+![Задание3.3](https://github.com/ddponomarev/10_4/blob/master/img/z3_3.png)
+
+![Задание3.4](https://github.com/ddponomarev/10_4/blob/master/img/z3_4.png)
 
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
 
-![Задание3](https://github.com/ddponomarev/10-3/blob/master/img/z3.png)
+![Задание3.5](https://github.com/ddponomarev/10_4/blob/master/img/z3_5.png)
 
+![Задание3.6](https://github.com/ddponomarev/10_4/blob/master/img/z3_6.png)
 
+![Задание3.7](https://github.com/ddponomarev/10_4/blob/master/img/z3_7.png)
 ---
 ### Задание 4* Ansible playbook
 
